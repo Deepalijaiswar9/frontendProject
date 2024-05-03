@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* header===================== */
+body {
+    background-color: #ff44008a;
+
+}
+
+header {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.keepNotes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keepNotes h1 {
+    color: #fff;
+}
+
+.keepNotes h1::before {
+    font-family: "fontAwesome";
+    content: "\f14b";
+    color: #ff4500;
+    padding-right: 10px;
+    text-indent: 0;
+}
+
+.keepNotes button {
+    padding: 10px 20px;
+    border: transparent;
+    color: #fff;
+    /* font-weight: bold; */
+    background-color: #ff4500;
+    transition: 2s;
+}
+
+.keepNotes button:hover {
+    border-radius: 100px;
+}
+
+.input-box {
+    width: 100%;
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 25px;
+    outline: none;
+}
+
+.col-md-4 {
+    position: relative;
+}
+
+.col-md-4 i {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    z-index: 1;
+}
